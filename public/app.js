@@ -7,6 +7,9 @@ document.getElementById('loan-form').addEventListener('submit', calculateResults
 function calculateResults(e) {
   
 
+ document.getElementById('results').style.display = 'none';
+
+
   console.log('Calculating...');
   // UI Vars
   const amount = document.getElementById('amount');
